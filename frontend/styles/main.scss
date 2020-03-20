@@ -80,3 +80,25 @@ header {
     }
 
 }
+
+// Statistics
+
+.section-stats {
+    margin-top: -50px;
+
+    .stats-details {
+        padding-top: 20px;
+        background: #ffffff;
+        padding-left: 45px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+}
