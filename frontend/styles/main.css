@@ -1,7 +1,7 @@
 body {
-  background-color: #E6E7E7;
-  font-family: 'Assistant', sans-serif;
-  color: #071C4D;
+  background-color: #e6e7e7;
+  font-family: "Assistant", sans-serif;
+  color: #071c4d;
 }
 
 .navbar-brand img {
@@ -9,7 +9,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #071C4D;
+  color: #071c4d;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -18,7 +18,7 @@ body {
 
 .navbar-light .navbar-nav .nav-link.active {
   font-weight: bold;
-  color: #071C4D !important;
+  color: #071c4d !important;
 }
 
 .btn-navbar-right {
@@ -30,12 +30,12 @@ body {
 }
 
 .btn-login {
-  background-color: #071C4D;
+  background-color: #071c4d;
   color: #ffffff;
 }
 
 .btn-login:hover {
-  background-color: #1B2D5E;
+  background-color: #1b2d5e;
   color: #ffffff;
 }
 
@@ -52,7 +52,7 @@ header p {
 }
 
 header h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 50px;
 }
@@ -62,7 +62,7 @@ header p {
 }
 
 header .btn-get-started {
-  background-color: #FF9E53;
+  background-color: #ff9e53;
   color: #ffffff;
 }
 
@@ -99,17 +99,17 @@ header .btn-get-started:hover {
 }
 
 .section-popular .section-popular-heading {
-  margin-top: 153px;
+  margin-top: 130px;
   color: #ffffff;
 }
 
 .section-popular h2 {
   font-weight: bold;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 40px;
 }
 
-.section-popular P {
+.section-popular p {
   font-size: 18px;
 }
 
@@ -117,7 +117,7 @@ header .btn-get-started:hover {
   min-height: 380px;
   padding: 30px;
   color: #ffffff;
-  background-color: #E6E7E7;
+  background-color: #e6e7e7;
   background-size: cover;
   margin-bottom: 20px;
 }
@@ -135,12 +135,28 @@ header .btn-get-started:hover {
 
 .section-popular-content .section-popular-travel .travel-button .btn-travel-details {
   padding: 10px;
-  background-color: #FF9E53;
+  background-color: #ff9e53;
   color: #ffffff;
 }
 
 .section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
   background-color: #fda562;
   color: #ffffff;
+}
+
+.section-networks {
+  background-color: #ffffff;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 35px;
+}
+
+.section-networks h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+.section-networks img {
+  max-width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
