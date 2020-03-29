@@ -205,7 +205,7 @@ header {
   .card-testimonial {
     padding: 40px 20px 10px;
     border-radius: 11px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 
     .testimonial-content {
       min-height: 365px;
@@ -258,5 +258,17 @@ header {
       background-color: #f3f3f3;
       color: #aeaeae;
     }
+  }
+}
+
+// Section Footer
+.section-footer {
+  a {
+    color: #071c4d;
+  }
+
+  .copyright {
+    color: #071c4d;
+    font-weight: 300;
   }
 }

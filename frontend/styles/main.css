@@ -189,7 +189,7 @@ header .btn-get-started:hover {
 .section-testimonial-content .card-testimonial {
   padding: 40px 20px 10px;
   border-radius: 11px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .section-testimonial-content .card-testimonial .testimonial-content {
@@ -242,5 +242,14 @@ header .btn-get-started:hover {
 .section-testimonial-content .btn-need-help:hover {
   background-color: #f3f3f3;
   color: #aeaeae;
+}
+
+.section-footer a {
+  color: #071c4d;
+}
+
+.section-footer .copyright {
+  color: #071c4d;
+  font-weight: 300;
 }
 /*# sourceMappingURL=main.css.map */
