@@ -4,24 +4,24 @@ body {
   color: #071c4d;
 }
 
-.navbar-brand img {
+.section-navbar .navbar-brand img {
   height: 40px;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.section-navbar .navbar-light .navbar-nav .nav-link {
   color: #071c4d;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
+.section-navbar .navbar-light .navbar-nav .nav-link:hover {
   color: #2a448e !important;
 }
 
-.navbar-light .navbar-nav .nav-link.active {
+.section-navbar .navbar-light .navbar-nav .nav-link.active {
   font-weight: bold;
   color: #071c4d !important;
 }
 
-.btn-navbar-right {
+.section-navbar .btn-navbar-right {
   margin-top: -10px !important;
   margin-bottom: -8px !important;
   margin-right: -18px !important;
@@ -29,91 +29,91 @@ body {
   border-radius: 0;
 }
 
-.btn-login {
+.section-navbar .btn-login {
   background-color: #071c4d;
   color: #ffffff;
 }
 
-.btn-login:hover {
+.section-navbar .btn-login:hover {
   background-color: #1b2d5e;
   color: #ffffff;
 }
 
-header {
+.index header {
   margin-top: -70px;
   padding: 180px 0 165px;
   background-image: url("../images/header.jpg");
   background-size: cover;
 }
 
-header h1,
-header p {
+.index header h1,
+.index header p {
   color: #ffffff;
 }
 
-header h1 {
+.index header h1 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 50px;
 }
 
-header p {
+.index header p {
   font-size: 24px;
 }
 
-header .btn-get-started {
+.index header .btn-get-started {
   background-color: #ff9e53;
   color: #ffffff;
 }
 
-header .btn-get-started:hover {
+.index header .btn-get-started:hover {
   background-color: #fda562;
   color: #ffffff;
 }
 
-.section-stats {
+.index .section-stats {
   margin-top: -50px;
 }
 
-.section-stats .stats-details {
+.index .section-stats .stats-details {
   padding-top: 20px;
   background: #ffffff;
   padding-left: 45px;
 }
 
-.section-stats h2 {
+.index .section-stats h2 {
   font-size: 30px;
   margin-bottom: 0;
 }
 
-.section-stats p {
+.index .section-stats p {
   font-size: 20px;
   font-weight: lighter;
 }
 
-.section-popular {
+.index .section-popular {
   min-height: 550px;
   background-color: #051334;
   margin-top: -53px;
   margin-bottom: -230px;
 }
 
-.section-popular .section-popular-heading {
+.index .section-popular .section-popular-heading {
   margin-top: 130px;
   color: #ffffff;
 }
 
-.section-popular h2 {
+.index .section-popular h2 {
   font-weight: bold;
   font-family: "Playfair Display", serif;
   font-size: 40px;
 }
 
-.section-popular p {
+.index .section-popular p {
   font-size: 18px;
 }
 
-.section-popular-content .section-popular-travel .card-travel {
+.index .section-popular-content .section-popular-travel .card-travel {
   min-height: 380px;
   padding: 30px;
   color: #ffffff;
@@ -122,104 +122,104 @@ header .btn-get-started:hover {
   margin-bottom: 20px;
 }
 
-.section-popular-content .section-popular-travel .travel-country {
+.index .section-popular-content .section-popular-travel .travel-country {
   font-size: 18px;
   color: #ffffff;
 }
 
-.section-popular-content .section-popular-travel .travel-location {
+.index .section-popular-content .section-popular-travel .travel-location {
   font-size: 24px;
   color: #ffffff;
   font-weight: 600;
 }
 
-.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+.index .section-popular-content .section-popular-travel .travel-button .btn-travel-details {
   padding: 10px;
   background-color: #ff9e53;
   color: #ffffff;
 }
 
-.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+.index .section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
   background-color: #fda562;
   color: #ffffff;
 }
 
-.section-networks {
+.index .section-networks {
   background-color: #ffffff;
   margin-top: -170px;
   padding-top: 240px;
   padding-bottom: 35px;
 }
 
-.section-networks h2 {
+.index .section-networks h2 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 40px;
 }
 
-.section-networks p {
+.index .section-networks p {
   font-size: 18px;
 }
 
-.section-networks img {
+.index .section-networks img {
   max-width: 100%;
 }
 
-.section-testimonial-heading {
+.index .section-testimonial-heading {
   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f3f3ff));
   background: linear-gradient(#fff 0%, #f3f3ff 100%);
   min-height: 440px;
 }
 
-.section-testimonial-heading h2 {
+.index .section-testimonial-heading h2 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 40px;
 }
 
-.section-testimonial-heading p {
+.index .section-testimonial-heading p {
   font-size: 18px;
 }
 
-.section-testimonial-content {
+.index .section-testimonial-content {
   margin-top: -280px;
   padding-bottom: 50px;
 }
 
-.section-testimonial-content .card-testimonial {
+.index .section-testimonial-content .card-testimonial {
   padding: 40px 20px 10px;
   border-radius: 11px;
   margin-bottom: 40px;
 }
 
-.section-testimonial-content .card-testimonial .testimonial-content {
+.index .section-testimonial-content .card-testimonial .testimonial-content {
   min-height: 365px;
 }
 
-.section-testimonial-content .card-testimonial h3 {
+.index .section-testimonial-content .card-testimonial h3 {
   font-size: 22px;
 }
 
-.section-testimonial-content .card-testimonial .testimonial {
+.index .section-testimonial-content .card-testimonial .testimonial {
   font-weight: 200;
   font-size: 26px;
   color: #6e6e6e;
   min-height: 155px;
 }
 
-.section-testimonial-content .card-testimonial .trip-to {
+.index .section-testimonial-content .card-testimonial .trip-to {
   font-weight: normal;
   font-size: 22px;
   color: #6e6e6e;
 }
 
-.section-testimonial-content .card-testimonial hr {
+.index .section-testimonial-content .card-testimonial hr {
   margin-left: -20px;
   margin-right: -20px;
   color: #e3e3e3;
 }
 
-.section-testimonial-content .btn-get-started {
+.index .section-testimonial-content .btn-get-started {
   background-color: #ff9e53;
   color: #ffffff;
   font-weight: 600;
@@ -227,21 +227,88 @@ header .btn-get-started:hover {
   color: #fff;
 }
 
-.section-testimonial-content .btn-get-started:hover {
+.index .section-testimonial-content .btn-get-started:hover {
   background-color: #fda562;
   color: #ffffff;
 }
 
-.section-testimonial-content .btn-need-help {
+.index .section-testimonial-content .btn-need-help {
   background: #efefef;
   font-weight: 300;
   font-size: 20px;
   color: #aeaeae;
 }
 
-.section-testimonial-content .btn-need-help:hover {
+.index .section-testimonial-content .btn-need-help:hover {
   background-color: #f3f3f3;
   color: #aeaeae;
+}
+
+.details .section-details-header {
+  min-height: 310px;
+  background: #e6e7e7;
+  margin-top: -68px;
+}
+
+.details .section-details-content {
+  min-height: 100vh;
+  margin-top: -210px;
+}
+
+.details .section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.details .section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071c4d;
+}
+
+.details .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.details h1 {
+  font-size: 26px;
+}
+
+.details h2 {
+  font-size: 20px;
+}
+
+.details p {
+  font-size: 18px;
+  color: #BBC2C2;
+}
+
+.details .features {
+  margin-top: 20px;
+}
+
+.details .features h3 {
+  font-size: 18px;
+  color: #071c4d;
+  margin-bottom: 0;
+}
+
+.details .features p {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.details .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.details .features .featured-img {
+  width: 45px;
+  height: 45px;
+  float: left;
 }
 
 .section-footer a {
