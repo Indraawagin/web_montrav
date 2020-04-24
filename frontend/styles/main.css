@@ -271,6 +271,12 @@ body {
   border-radius: 11px;
 }
 
+.details .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
 .details h1 {
   font-size: 26px;
 }
@@ -281,7 +287,7 @@ body {
 
 .details p {
   font-size: 18px;
-  color: #BBC2C2;
+  color: #bbc2c2;
 }
 
 .details .features {
@@ -309,6 +315,48 @@ body {
   width: 45px;
   height: 45px;
   float: left;
+}
+
+.details .gallery .xzoom-container {
+  display: block;
+}
+
+.details .gallery .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.details .gallery .xactive {
+  border: 4px solid #5cbe8c;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.details .gallery .xzoom-gallery {
+  width: 128px;
+  height: 68px;
+}
+
+.member .member-img {
+  width: 40px;
+  height: 40px;
+}
+
+.join-container {
+  margin-top: -16px;
+}
+
+.btn-join-now {
+  background-color: #ff9e53;
+  color: #fff;
+  border-radius: 0;
+}
+
+.btn-join-now:hover {
+  background-color: #ffb276;
+  color: #fff;
 }
 
 .section-footer a {
