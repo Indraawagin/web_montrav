@@ -271,23 +271,65 @@ body {
   border-radius: 11px;
 }
 
+.details .card-details h1 {
+  font-size: 26px;
+}
+
+.details .card-details h2 {
+  font-size: 20px;
+}
+
+.details .card-details p {
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.details .card-details .trip-informations th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071c4d;
+}
+
+.details .card-details .trip-informations td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.details .card-details h3 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #02113b;
+}
+
+.details .card-details .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+
+.details .card-details .gj-datepicker .datepicker {
+  border-right: 0;
+}
+
+.details .card-details .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.details .card-details .btn-add-now {
+  background-color: #071c4d;
+  color: #fff;
+}
+
+.details .card-details .btn-add-now:hover {
+  background-color: #1b2d5e;
+  color: #fff;
+}
+
 .details .card-right {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom: 0;
-}
-
-.details h1 {
-  font-size: 26px;
-}
-
-.details h2 {
-  font-size: 20px;
-}
-
-.details p {
-  font-size: 18px;
-  color: #bbc2c2;
 }
 
 .details .features {
