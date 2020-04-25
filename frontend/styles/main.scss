@@ -277,6 +277,7 @@ body {
   .section-details-content {
     min-height: 100vh;
     margin-top: -210px;
+    margin-bottom: 100px;
 
     .breadcrumb {
       background-color: transparent;
@@ -323,8 +324,46 @@ body {
       }
     }
 
+    .payment-instructions {
+      font-weight: 300;
+      font-size: 14px;
+      color: #b1b1b1;
+    }
+
+    .bank {
+      .bank-item {
+        h3 {
+          font-size: 18px;
+          color: #071c4d;
+          margin-bottom: 0;
+        }
+
+        p {
+          margin-bottom: 0;
+        }
+
+        .description {
+          margin-left: 10px;
+          overflow: hidden;
+          float: left;
+
+          p {
+            font-weight: normal;
+            font-size: 16px;
+            color: #071c4d;
+          }
+        }
+      }
+
+      .bank-image {
+        width: 45px;
+        height: 45px;
+        float: left;
+      }
+    }
+
     h3 {
-      font-weight: 600;
+      font-weight: normal;
       font-size: 14px;
       color: #02113b;
     }
@@ -355,6 +394,16 @@ body {
         background-color: #1b2d5e;
         color: #fff;
       }
+    }
+
+    .text-blue {
+      color: #071c4d;
+      font-weight: normal;
+    }
+
+    .text-orange {
+      color: #ff9e53;
+      font-weight: normal;
     }
   }
 
