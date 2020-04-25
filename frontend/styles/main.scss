@@ -485,6 +485,33 @@ body {
   }
 }
 
+.section-success {
+  height: 90vh;
+
+  h1 {
+    font-weight: 600px;
+    font-size: 26px;
+    color: #071c4d;
+  }
+
+  p {
+    font-weight: normal;
+    font-size: 18px;
+    color: #b1b1b1;
+  }
+
+  .btn-home-page {
+    border-radius: 4px;
+    background-color: #071c4d;
+    color: #fff;
+
+    &:hover {
+      background-color: #1b2d5e;
+      color: #fff;
+    }
+  }
+}
+
 // Section Footer
 .section-footer {
   a {
