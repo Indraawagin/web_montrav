@@ -268,7 +268,7 @@ body {
 }
 
 .details .card-details {
-  padding: 30px;
+  padding: 23px;
   border-radius: 11px;
 }
 
@@ -480,5 +480,49 @@ body {
 .section-footer .copyright {
   color: #071c4d;
   font-weight: 300;
+}
+
+@media (min-width: 992px) {
+  .login-container {
+    background: -webkit-gradient(linear, left top, right top, color-stop(60%, #ffff), color-stop(40%, #E6E7E7));
+    background: linear-gradient(90deg, #ffff 60%, #E6E7E7 40%);
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.login-container .page-login {
+  height: 100vh;
+}
+
+.login-container .page-login .btn-login {
+  background-color: #ff9e53;
+  color: #ffffff;
+}
+
+.login-container .page-login .btn-login:hover {
+  background-color: #fda562;
+  color: #ffffff;
+}
+
+.login-container .section-left {
+  margin-left: -2rem;
+}
+
+.login-container .section-left h1 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 50px;
+  text-align: left;
+  color: #02113b;
+}
+
+.login-container .section-right a {
+  font-family: Assistant;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 15px;
+  text-align: left;
+  color: #d4d4d4;
 }
 /*# sourceMappingURL=main.css.map */
