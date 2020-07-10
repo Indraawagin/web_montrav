@@ -50,6 +50,7 @@ body {
 
 // Header & Main Index
 .index {
+
   // Header
   header {
     margin-top: -70px;
@@ -266,6 +267,7 @@ body {
 
 // Header & Main Details
 .details {
+
   // Header
   .section-details-header {
     min-height: 310px;
@@ -294,7 +296,7 @@ body {
   }
 
   .card-details {
-    padding: 30px;
+    padding: 23px;
     border-radius: 11px;
 
     h1 {
@@ -521,5 +523,52 @@ body {
   .copyright {
     color: #071c4d;
     font-weight: 300;
+  }
+}
+
+// Login
+.login-container {
+  @media (min-width: 992px) {
+    background: linear-gradient(90deg, #ffff 60%, #E6E7E7 40%);
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .page-login {
+    height: 100vh;
+
+    .btn-login {
+      background-color: #ff9e53;
+      color: #ffffff;
+
+      &:hover {
+        background-color: rgb(253, 165, 98);
+        color: #ffffff;
+      }
+    }
+  }
+
+  .section-left {
+    margin-left: -2rem;
+
+    h1 {
+      font-family: "Playfair Display";
+      font-weight: bold;
+      font-size: 50px;
+      text-align: left;
+      color: #02113b;
+
+    }
+  }
+
+  .section-right {
+    a {
+      font-family: Assistant;
+      font-weight: 600;
+      text-decoration: underline;
+      font-size: 15px;
+      text-align: left;
+      color: #d4d4d4;
+    }
   }
 }
