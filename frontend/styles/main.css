@@ -413,18 +413,6 @@ header .btn-get-started:hover {
   border-bottom: 0;
 }
 
-@media (max-width: 450px) {
-  .section-details-content {
-    margin-bottom: 2rem;
-  }
-  .section-details-content .breadcrumb {
-    padding-left: 10px !important;
-  }
-  .card-right {
-    margin-top: 1.5rem;
-  }
-}
-
 .features {
   margin-top: 20px;
 }
@@ -472,6 +460,22 @@ header .btn-get-started:hover {
 .gallery .xzoom-gallery {
   width: 128px;
   height: 68px;
+}
+
+@media (max-width: 450px) {
+  .section-details-content {
+    margin-bottom: 2rem;
+  }
+  .section-details-content .breadcrumb {
+    padding-left: 10px !important;
+  }
+  .card-right {
+    margin-top: 1.5rem;
+  }
+  .gallery .xzoom-gallery {
+    width: 51px;
+    height: 37px;
+  }
 }
 
 .member .member-img {
