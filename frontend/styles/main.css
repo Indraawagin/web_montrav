@@ -244,7 +244,7 @@ header .btn-get-started:hover {
   color: #aeaeae;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .section-navbar .navbar-brand img {
     width: 160px;
     height: 30px;
