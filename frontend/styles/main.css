@@ -275,6 +275,9 @@ header .btn-get-started:hover {
   .section-popular-content .section-popular-travel .card-travel {
     min-height: 480px;
   }
+  .section-networks {
+    margin-top: -225px;
+  }
 }
 
 .details .section-details-header {
