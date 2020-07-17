@@ -541,6 +541,12 @@ header {
       height: 37px;
     }
   }
+
+  .features {
+    .border-left {
+      border: none !important;
+    }
+  }
 }
 
 .member {

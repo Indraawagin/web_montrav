@@ -476,6 +476,9 @@ header .btn-get-started:hover {
     width: 51px;
     height: 37px;
   }
+  .features .border-left {
+    border: none !important;
+  }
 }
 
 .member .member-img {
