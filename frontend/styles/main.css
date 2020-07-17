@@ -39,81 +39,81 @@ body {
   color: #ffffff;
 }
 
-.index header {
+header {
   margin-top: -70px;
   padding: 180px 0 165px;
   background-image: url("../images/header.jpg");
   background-size: cover;
 }
 
-.index header h1,
-.index header p {
+header h1,
+header p {
   color: #ffffff;
 }
 
-.index header h1 {
+header h1 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 50px;
 }
 
-.index header p {
+header p {
   font-size: 24px;
 }
 
-.index header .btn-get-started {
+header .btn-get-started {
   background-color: #ff9e53;
   color: #ffffff;
 }
 
-.index header .btn-get-started:hover {
+header .btn-get-started:hover {
   background-color: #fda562;
   color: #ffffff;
 }
 
-.index .section-stats {
+.section-stats {
   margin-top: -50px;
 }
 
-.index .section-stats .stats-details {
+.section-stats .stats-details {
   padding-top: 20px;
   background: #ffffff;
   padding-left: 45px;
 }
 
-.index .section-stats h2 {
+.section-stats h2 {
   font-size: 30px;
   margin-bottom: 0;
 }
 
-.index .section-stats p {
+.section-stats p {
   font-size: 20px;
   font-weight: lighter;
 }
 
-.index .section-popular {
+.section-popular {
   min-height: 550px;
   background-color: #051334;
   margin-top: -53px;
   margin-bottom: -230px;
 }
 
-.index .section-popular .section-popular-heading {
+.section-popular .section-popular-heading {
   margin-top: 130px;
   color: #ffffff;
 }
 
-.index .section-popular h2 {
+.section-popular h2 {
   font-weight: bold;
   font-family: "Playfair Display", serif;
   font-size: 40px;
 }
 
-.index .section-popular p {
+.section-popular p {
   font-size: 18px;
 }
 
-.index .section-popular-content .section-popular-travel .card-travel {
+.section-popular-content .section-popular-travel .card-travel {
   min-height: 380px;
   padding: 30px;
   color: #ffffff;
@@ -122,104 +122,104 @@ body {
   margin-bottom: 20px;
 }
 
-.index .section-popular-content .section-popular-travel .travel-country {
+.section-popular-content .section-popular-travel .travel-country {
   font-size: 18px;
   color: #ffffff;
 }
 
-.index .section-popular-content .section-popular-travel .travel-location {
+.section-popular-content .section-popular-travel .travel-location {
   font-size: 24px;
   color: #ffffff;
   font-weight: 600;
 }
 
-.index .section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
   padding: 10px;
   background-color: #ff9e53;
   color: #ffffff;
 }
 
-.index .section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
   background-color: #fda562;
   color: #ffffff;
 }
 
-.index .section-networks {
+.section-networks {
   background-color: #ffffff;
   margin-top: -170px;
   padding-top: 240px;
   padding-bottom: 35px;
 }
 
-.index .section-networks h2 {
+.section-networks h2 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 40px;
 }
 
-.index .section-networks p {
+.section-networks p {
   font-size: 18px;
 }
 
-.index .section-networks img {
+.section-networks img {
   max-width: 100%;
 }
 
-.index .section-testimonial-heading {
+.section-testimonial-heading {
   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f3f3ff));
   background: linear-gradient(#fff 0%, #f3f3ff 100%);
   min-height: 440px;
 }
 
-.index .section-testimonial-heading h2 {
+.section-testimonial-heading h2 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 40px;
 }
 
-.index .section-testimonial-heading p {
+.section-testimonial-heading p {
   font-size: 18px;
 }
 
-.index .section-testimonial-content {
+.section-testimonial-content {
   margin-top: -280px;
   padding-bottom: 50px;
 }
 
-.index .section-testimonial-content .card-testimonial {
+.section-testimonial-content .card-testimonial {
   padding: 40px 20px 10px;
   border-radius: 11px;
   margin-bottom: 40px;
 }
 
-.index .section-testimonial-content .card-testimonial .testimonial-content {
+.section-testimonial-content .card-testimonial .testimonial-content {
   min-height: 365px;
 }
 
-.index .section-testimonial-content .card-testimonial h3 {
+.section-testimonial-content .card-testimonial h3 {
   font-size: 22px;
 }
 
-.index .section-testimonial-content .card-testimonial .testimonial {
+.section-testimonial-content .card-testimonial .testimonial {
   font-weight: 200;
   font-size: 26px;
   color: #6e6e6e;
   min-height: 155px;
 }
 
-.index .section-testimonial-content .card-testimonial .trip-to {
+.section-testimonial-content .card-testimonial .trip-to {
   font-weight: normal;
   font-size: 22px;
   color: #6e6e6e;
 }
 
-.index .section-testimonial-content .card-testimonial hr {
+.section-testimonial-content .card-testimonial hr {
   margin-left: -20px;
   margin-right: -20px;
   color: #e3e3e3;
 }
 
-.index .section-testimonial-content .btn-get-started {
+.section-testimonial-content .btn-get-started {
   background-color: #ff9e53;
   color: #ffffff;
   font-weight: 600;
@@ -227,21 +227,54 @@ body {
   color: #fff;
 }
 
-.index .section-testimonial-content .btn-get-started:hover {
+.section-testimonial-content .btn-get-started:hover {
   background-color: #fda562;
   color: #ffffff;
 }
 
-.index .section-testimonial-content .btn-need-help {
+.section-testimonial-content .btn-need-help {
   background: #efefef;
   font-weight: 300;
   font-size: 20px;
   color: #aeaeae;
 }
 
-.index .section-testimonial-content .btn-need-help:hover {
+.section-testimonial-content .btn-need-help:hover {
   background-color: #f3f3f3;
   color: #aeaeae;
+}
+
+@media (max-width: 400px) {
+  .section-navbar .navbar-brand img {
+    width: 160px;
+    height: 30px;
+  }
+  header h1 {
+    font-size: 40px;
+  }
+  header p {
+    font-size: 19px;
+  }
+  header .btn-get-started {
+    background-color: #ff9e53;
+    color: #ffffff;
+  }
+  header .btn-get-started:hover {
+    background-color: #fda562;
+    color: #ffffff;
+  }
+  .section-stats .stats-details {
+    padding-left: 15px;
+  }
+  .section-stats h2 {
+    font-size: 25px;
+  }
+  .section-stats p {
+    font-size: 16px;
+  }
+  .section-popular-content .section-popular-travel .card-travel {
+    min-height: 480px;
+  }
 }
 
 .details .section-details-header {
