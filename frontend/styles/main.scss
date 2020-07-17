@@ -351,8 +351,6 @@ header {
   }
 }
 
-
-
 .card-details {
   padding: 23px;
   border-radius: 11px;
@@ -630,6 +628,10 @@ header {
         color: #ffffff;
       }
     }
+
+    @media (max-width: 450px) {
+      height: 75vh;
+    }
   }
 
   .section-left {
@@ -642,6 +644,15 @@ header {
       text-align: left;
       color: #02113b;
 
+    }
+
+    @media (max-width: 450px) {
+      margin: 0px;
+
+      h1 {
+        font-size: 45px;
+        text-align: center;
+      }
     }
   }
 

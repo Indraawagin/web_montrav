@@ -560,6 +560,12 @@ header .btn-get-started:hover {
   color: #ffffff;
 }
 
+@media (max-width: 450px) {
+  .login-container .page-login {
+    height: 75vh;
+  }
+}
+
 .login-container .section-left {
   margin-left: -2rem;
 }
@@ -570,6 +576,16 @@ header .btn-get-started:hover {
   font-size: 50px;
   text-align: left;
   color: #02113b;
+}
+
+@media (max-width: 450px) {
+  .login-container .section-left {
+    margin: 0px;
+  }
+  .login-container .section-left h1 {
+    font-size: 45px;
+    text-align: center;
+  }
 }
 
 .login-container .section-right a {
