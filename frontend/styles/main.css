@@ -280,184 +280,196 @@ header .btn-get-started:hover {
   }
 }
 
-.details .section-details-header {
+.section-details-header {
   min-height: 310px;
   background: #e6e7e7;
   margin-top: -68px;
 }
 
-.details .section-details-content {
+.section-details-content {
   min-height: 100vh;
   margin-top: -210px;
   margin-bottom: 100px;
 }
 
-.details .section-details-content .breadcrumb {
+.section-details-content .breadcrumb {
   background-color: transparent;
   padding: 0;
   margin-bottom: 30px;
 }
 
-.details .section-details-content .breadcrumb-item.active {
+.section-details-content .breadcrumb-item.active {
   font-weight: bold;
   color: #071c4d;
 }
 
-.details .card-details {
+.card-details {
   padding: 23px;
   border-radius: 11px;
 }
 
-.details .card-details h1 {
+.card-details h1 {
   font-size: 26px;
 }
 
-.details .card-details h2 {
+.card-details h2 {
   font-size: 20px;
 }
 
-.details .card-details p {
+.card-details p {
   font-size: 18px;
   color: #b1b1b1;
 }
 
-.details .card-details .trip-informations th {
+.card-details .trip-informations th {
   font-weight: 300;
   font-size: 18px;
   color: #071c4d;
 }
 
-.details .card-details .trip-informations td {
+.card-details .trip-informations td {
   font-weight: 300;
   font-size: 18px;
   color: #b1b1b1;
 }
 
-.details .card-details .payment-instructions {
+.card-details .payment-instructions {
   font-weight: 300;
   font-size: 14px;
   color: #b1b1b1;
 }
 
-.details .card-details .bank .bank-item h3 {
+.card-details .bank .bank-item h3 {
   font-size: 18px;
   color: #071c4d;
   margin-bottom: 0;
 }
 
-.details .card-details .bank .bank-item p {
+.card-details .bank .bank-item p {
   margin-bottom: 0;
 }
 
-.details .card-details .bank .bank-item .description {
+.card-details .bank .bank-item .description {
   margin-left: 10px;
   overflow: hidden;
   float: left;
 }
 
-.details .card-details .bank .bank-item .description p {
+.card-details .bank .bank-item .description p {
   font-weight: normal;
   font-size: 16px;
   color: #071c4d;
 }
 
-.details .card-details .bank .bank-image {
+.card-details .bank .bank-image {
   width: 45px;
   height: 45px;
   float: left;
 }
 
-.details .card-details h3 {
+.card-details h3 {
   font-weight: normal;
   font-size: 14px;
   color: #02113b;
 }
 
-.details .card-details .disclaimer {
+.card-details .disclaimer {
   font-weight: 300;
   font-size: 14px;
   color: #b1b1b1;
 }
 
-.details .card-details .gj-datepicker .datepicker {
+.card-details .gj-datepicker .datepicker {
   border-right: 0;
 }
 
-.details .card-details .gj-datepicker .input-group-append .btn {
+.card-details .gj-datepicker .input-group-append .btn {
   padding-right: 30px;
 }
 
-.details .card-details .btn-add-now {
+.card-details .btn-add-now {
   background-color: #071c4d;
   color: #fff;
 }
 
-.details .card-details .btn-add-now:hover {
+.card-details .btn-add-now:hover {
   background-color: #1b2d5e;
   color: #fff;
 }
 
-.details .card-details .text-blue {
+.card-details .text-blue {
   color: #071c4d;
   font-weight: normal;
 }
 
-.details .card-details .text-orange {
+.card-details .text-orange {
   color: #ff9e53;
   font-weight: normal;
 }
 
-.details .card-right {
+.card-right {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom: 0;
 }
 
-.details .features {
+@media (max-width: 450px) {
+  .section-details-content {
+    margin-bottom: 2rem;
+  }
+  .section-details-content .breadcrumb {
+    padding-left: 10px !important;
+  }
+  .card-right {
+    margin-top: 1.5rem;
+  }
+}
+
+.features {
   margin-top: 20px;
 }
 
-.details .features h3 {
+.features h3 {
   font-size: 18px;
   color: #071c4d;
   margin-bottom: 0;
 }
 
-.details .features p {
+.features p {
   margin-bottom: 0;
   font-size: 14px;
 }
 
-.details .features .description {
+.features .description {
   margin-left: 10px;
   overflow: hidden;
   float: left;
 }
 
-.details .features .featured-img {
+.features .featured-img {
   width: 45px;
   height: 45px;
   float: left;
 }
 
-.details .gallery .xzoom-container {
+.gallery .xzoom-container {
   display: block;
 }
 
-.details .gallery .xzoom {
+.gallery .xzoom {
   width: 100%;
   -webkit-box-shadow: none;
           box-shadow: none;
   margin-bottom: 10px;
 }
 
-.details .gallery .xactive {
+.gallery .xactive {
   border: 4px solid #5cbe8c;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-.details .gallery .xzoom-gallery {
+.gallery .xzoom-gallery {
   width: 128px;
   height: 68px;
 }
